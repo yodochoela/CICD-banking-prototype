@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Cloning repository from GitHub...'
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/YOUR_REPO.git',
+                    url: 'https://github.com/yodochoela/CICD-banking-prototype',
                     credentialsId: 'github-token' // Replace with your Jenkins credential ID
             }
         }
