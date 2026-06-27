@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route("/")
 def home():
-    return "Prototype Backend Running"
+    return "CICD Prototype Backend Running"
 
 @app.route("/api/health")
 def health():
